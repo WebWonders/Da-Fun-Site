@@ -5,7 +5,7 @@
 * {
     background-color: yellow;
 }
-#fun1 {
+.fun1 {
     color: red;
 }
 h1 {
@@ -14,11 +14,11 @@ h1 {
 h3 {
     color: purple;
 }
-#good {
+.good {
     color: blue;
     text-decoration: bold;
 }
-#good:hover {
+.good:hover {
     color: red;
     text-decoration: bold;
     font-family: Helvetica, serif;
