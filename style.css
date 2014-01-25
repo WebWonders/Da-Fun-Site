@@ -1,0 +1,60 @@
+#all {
+    background-color: #CCCC66;
+    border: 5px solid #CCCC33;
+    border-radius: 10px;
+* {
+    background-color: yellow;
+}
+.fun1 {
+    color: red;
+}
+h1 {
+    color: green;
+}
+h3 {
+    color: purple;
+}
+.good {
+    color: blue;
+    text-decoration: bold;
+}
+.good:hover {
+    color: red;
+    text-decoration: bold;
+    font-family: Helvetica, serif;
+}
+.bouncies {
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+}
+#boing1 {
+    background-color: red;
+}
+#boing2 {
+    background-color: green;
+}
+#bounceHolder {
+    text-align: center;
+}
+#button1 {
+    background-color: purple;
+    display: inline-block;
+}
+#button1:hover {
+    background-color: pink;
+}
+#boing1:hover {
+    background-color: blue;
+}
+#boing2:hover {
+    background-color: blue;
+}
+#p2dissapear1 {
+    display: inline-block;
+}
+#endComment {
+    color: red;
+}
