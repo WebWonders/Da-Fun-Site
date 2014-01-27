@@ -1,61 +1,155 @@
-#all {
+/*    CSS for main.html on Da Fun Site    */
+
+/*    Please do not work with the positioning portion of this document while on github, change and test locally to avoid messy layout     */
+
+#everything {
     background-color: #CCCC66;
     border: 5px solid #CCCC33;
     border-radius: 10px;
+	background-color: #E9FF00;
 }
-* {
-    background-color: yellow;
-}
-.fun1 {
-    color: red;
-}
-h1 {
-    color: green;
+
+/*-------Header styles--------*/
+h1, h2 {
+    color: #FF0000;
 }
 h3 {
-    color: purple;
+    color: #6B174C;
 }
-.good {
-    color: blue;
+
+
+/*-------Text decoration-------*/
+.nb {
+    color: #0000FF;
     text-decoration: bold;
 }
-.good:hover {
-    color: red;
-    text-decoration: bold;
-    font-family: Helvetica, serif;
+.nb:hover {
+    color: #FF0000;
 }
+
+.fun {
+    color: #FF0000;
+    text-decoration: bold;
+}
+
+.bye {
+    color: #FF0000;
+}
+
+/*-------Show canvas------*/
+
+canvas {
+	background-color: #CDDD1C;
+}
+
+/*-------Bouncies------*/
 .bouncies {
     display: inline-block;
     height: 100px;
     width: 120px;
-    text-align: center;
     border-radius: 10px;
 }
-#boing1 {
-    background-color: red;
+
+.bounce1 {
+    background-color: #FF0000;
 }
-#boing2 {
-    background-color: green;
+
+.bounce2 {
+    background-color: #27C600;
 }
-#bounceHolder {
-    text-align: center;
+
+.bounce1:hover {
+    background-color: #0032FF;
 }
+
+.bounce2:hover {
+    background-color: #0032FF;
+}
+
+
+#bouncieHolder {
+	height: 350px;
+}
+
+/*---------Disappeaaring button/text-------*/
 #button1 {
-    background-color: purple;
+    background-color: #A800A5;
+	color: #FFFFFF;
     display: inline-block;
 }
 #button1:hover {
-    background-color: pink;
+    background-color: #D12782;
+	color: #000000;
 }
-#boing1:hover {
-    background-color: blue;
-}
-#boing2:hover {
-    background-color: blue;
-}
+
 #p2dissapear1 {
     display: inline-block;
 }
-#endComment {
-    color: red;
+
+/*--------Navigation text---------*/
+
+nav {
+	border: 5px solid #CCCC33;
+	background-color: #0ebfd3;
+	border-radius: 10px;
+	height: 500px;
+}
+
+#navWrapper {
+	text-align: center;
+}
+
+/*---------Footer---------*/
+/*optional footer box, try both ways - be sure to comment out both rules*/
+footer {
+	border: 5px solid #CCCC33;
+    border-radius: 10px;
+}
+
+/*--------positioning--------*/
+/*-Don't mess with this unless you know what you are doing on live version please. Change the wrong thing and it can really mess up the site! In fact it took me 1.5 hours to get it too look ok again -biblio*/
+
+/*Note: using only absolute positioning caused the border and background color to mess up*/
+
+#content { 
+	position: relative;
+	left: 8px;
+	right: 8px;
+	top: 10px;
+}
+
+nav {
+	position: absolute;
+	right: 3px;
+	width: 300px;
+	top: -36px;
+}
+
+#bouncietext {
+	position: absolute;
+	width: 300px;
+	top: 290px;
+	left: 150px;
+}
+
+#navWrapper {
+	position: relative;
+	left: 5px;
+	right: 5px;
+	top: -10px;
+}
+	
+.bouncieText {
+	position: relative;
+	left: 6px;
+	top: 3px;
+}
+
+
+/*Optional footer box, check it out both ways - be sure to comment out both rules*/
+footer {
+	position: relative;
+	left: -13px;
+	width: 100%;
+	top: -3px;
 }
