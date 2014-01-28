@@ -100,6 +100,14 @@ nav {
 	text-align: center;
 }
 
+.pages {
+	text-decoration: none;
+}
+
+.pages:hover {
+	text-decoration: bold;
+}
+
 /*---------Footer---------*/
 
 footer { padding-left: 6px; }
