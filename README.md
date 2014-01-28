@@ -1,6 +1,4 @@
 Da-Fun-Site
 ===========
 
-This is a site I made a while back filled with random fun stuff to play with.
-
-Have fun!
+Da Fun Site is a website which contains fun text based and 2D games. It also has fun affects with JavaScript and CSS to experiment with. What are you waiting for? Go play already!
