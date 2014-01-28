@@ -1,0 +1,21 @@
+#everything {
+  background-color: #CCCC66;
+  border: 5px solid #CCCC33;
+  border-radius: 10px;
+    background-color: #E9FF00;
+}
+h1 {
+  color: #FF0000;
+}
+h2 {
+  color: #FF0000;
+}
+h3 {
+  color: #FF0000;
+}
+form {
+  border: 5px solid #CCCC33;
+  background-color: #0ebfd3;
+  border-radius: 10px;
+  height: 500px;
+}
