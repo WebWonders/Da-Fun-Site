@@ -93,6 +93,7 @@ nav {
 	background-color: #0ebfd3;
 	border-radius: 10px;
 	height: 500px;
+	padding-right: 7px;
 }
 
 #navWrapper {
@@ -100,6 +101,8 @@ nav {
 }
 
 /*---------Footer---------*/
+
+footer { padding-left: 3px; }
 /*optional footer box, try both ways - be sure to comment out both rules*/
 footer {
 	border: 5px solid #CCCC33;
