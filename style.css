@@ -1,6 +1,6 @@
-/* CSS for main.html on Da Fun Site */
+/*    CSS for main.html on Da Fun Site    */
 
-/* Please do not work with the positioning portion of this document while on github, change and test locally to avoid messy layout */
+/*    Please do not work with the positioning portion of this document while on github, change and test locally to avoid messy layout     */
 
 #everything {
     background-color: #CCCC66;
@@ -100,7 +100,16 @@ nav {
         text-align: center;
 }
 
+.pages {
+        text-decoration: none;
+}
+
+.pages:hover {
+        text-decoration: bold;
+}
+
 /*---------Footer---------*/
+
 footer { padding-left: 6px; }
 /*optional footer box, try both ways - be sure to comment out both rules*/
 footer {
@@ -113,7 +122,7 @@ footer {
 
 /*Note: using only absolute positioning caused the border and background color to mess up*/
 
-#content {
+#content { 
         position: relative;
         left: 8px;
         right: 8px;
@@ -155,4 +164,3 @@ footer {
         width: 100%;
         top: -3px;
 }
-
