@@ -102,7 +102,7 @@ nav {
 
 /*---------Footer---------*/
 
-footer { padding-left: 3px; }
+footer { padding-left: 6px; }
 /*optional footer box, try both ways - be sure to comment out both rules*/
 footer {
 	border: 5px solid #CCCC33;
