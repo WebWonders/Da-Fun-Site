@@ -130,10 +130,10 @@ footer {
 }
 
 nav {
-	position: absolute;
-	right: 3px;
+	position: fixed;
+	right: 8px;
 	width: 300px;
-	top: -36px;
+	top: 8px;
 }
 
 #bouncietext {
