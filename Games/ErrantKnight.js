@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#submitButton').onClick(function() {
     alert('Welcome!')
-    go();
+    playGame();
   });
 });
 
