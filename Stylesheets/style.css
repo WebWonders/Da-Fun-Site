@@ -71,6 +71,10 @@ canvas {
 	height: 350px;
 }
 
+#bouncietext {
+	width: 300px;
+}
+
 /*---------Disappeaaring button/text-------*/
 #button1 {
     background-color: #A800A5;
@@ -111,12 +115,6 @@ nav {
 /*---------Footer---------*/
 
 footer { padding-left: 6px; }
-/*optional footer box, try both ways - be sure to comment out both rules*/
-footer {
-	border: 5px solid #CCCC33;
-    border-radius: 10px;
-}
-
 /*--------positioning--------*/
 /*-Don't mess with this unless you know what you are doing on live version please. Change the wrong thing and it can really mess up the site! In fact it took me 1.5 hours to get it too look ok again -biblio*/
 
@@ -127,6 +125,7 @@ footer {
 	left: 8px;
 	right: 8px;
 	top: 10px;
+	width: 80%;
 }
 
 nav {
@@ -134,14 +133,9 @@ nav {
 	right: 8px;
 	width: 300px;
 	top: 8px;
+	width: 20%;
 }
 
-#bouncietext {
-	position: absolute;
-	width: 300px;
-	top: 290px;
-	left: 150px;
-}
 
 #navWrapper {
 	position: relative;
@@ -154,13 +148,4 @@ nav {
 	position: relative;
 	left: 6px;
 	top: 3px;
-}
-
-
-/*Optional footer box, check it out both ways - be sure to comment out both rules*/
-footer {
-	position: relative;
-	left: -13px;
-	width: 100%;
-	top: -3px;
 }
