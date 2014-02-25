@@ -66,7 +66,7 @@ window.onkeydown = function( e ) {
     // Down key
     particle.vy = 200;
 }
-};
+};/*
 window.onkeyup = function( e ) {
     e = e || window.event;
     var code = e.keyCode;
@@ -84,3 +84,4 @@ window.onkeyup = function( e ) {
     particle.vy = 0;
 }
 };
+*/
